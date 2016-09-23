@@ -9,10 +9,11 @@ class mesa
 private:
 	int numero;
 	string tipo;
-	repartidor _repartidor;
-	jugador _jugador;
+	repartidor* _repartidor;
+	jugador* _jugador;
 public:
-	mesa(int,string,repartidor,jugador);
+	mesa(int,string,repartidor*,jugador*);
 	~mesa();
+	string toString()const;
 	
 };
