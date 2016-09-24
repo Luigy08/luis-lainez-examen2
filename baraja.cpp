@@ -22,7 +22,7 @@ baraja::baraja(){
 			if (i==3)
 			{
 				cartas.push_back(new carta(j,"♣","Negro"));
-			}//
+			}
 		}
 	}
 }
