@@ -31,7 +31,6 @@ int main(int argc, char const *argv[])
 		{
 			if (nombreLog==listaPersonas[i]->getNombre() && idLog==listaPersonas[i]->getId())
 			{
-				cout<<"..............."<<endl;
 				temporal=1;
 				login=listaPersonas[i];
 			}	
@@ -41,7 +40,6 @@ int main(int argc, char const *argv[])
 		{
 			if (dynamic_cast<jugador*>(login)!=NULL)
 			{
-				cout<<"segundo....."<<endl;
 				bandera=2;		
 			}else if (dynamic_cast<administrador*>(login)!=NULL)
 			{
