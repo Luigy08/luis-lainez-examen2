@@ -23,7 +23,7 @@ baraja::baraja(){
 			{
 				cartas.push_back(new carta(j,"♣","Negro"));
 			}
-		}//
+		}
 	}
 }
 baraja::~baraja(){
