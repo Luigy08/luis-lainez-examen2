@@ -10,5 +10,5 @@ private:
 public:
 	carta(int,string,string);
 	~carta();
-	
+	string toString()const;
 };
