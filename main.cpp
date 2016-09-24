@@ -277,13 +277,21 @@ int main(int argc, char const *argv[])
 					//break;
 				}
 			}else if(bandera==2){	
-					cout<<"Simulacion"<<endl;
+					vector<carta> cartas;
 					acceso=false;	
 			} else if(bandera==3){
 					cout<<"Eror intente de nuevo"<<endl;
 					acceso=false;		
 			}
 		}
+	}
+	for (int i = 0; i < listaPersonas.size(); i++)
+	{
+		delete listaPersonas[i];
+	}
+	for (int i = 0; i < listaMesas.size(); i++)
+	{
+		delete listaMesas[i];
 	}
 	return 0;
 }

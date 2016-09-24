@@ -9,5 +9,5 @@ private:
 public:
 	baraja();
 	~baraja();
-	
+	carta* getCarta(int);
 };

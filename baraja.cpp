@@ -1,5 +1,7 @@
 #include "carta.h"
 #include "baraja.h"
+#include <vector>
+using std::vector;
 baraja::baraja(){
 	for (int i = 0; i < 4; i++)
 	{
@@ -26,4 +28,7 @@ baraja::baraja(){
 }
 baraja::~baraja(){
 
+}
+carta* baraja::getCarta(int posicion){
+	return cartas[posicion];
 }
